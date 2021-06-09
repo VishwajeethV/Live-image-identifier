@@ -1,0 +1,51 @@
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 10px royalblue;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.heading_div {
+float: none;
+background: linear-gradient(red, orange ,yellow ,rgb(45, 228, 45) );
+padding: 10px;
+border-radius: 20px;
+color: black;
+box-shadow:5px 5px 10px rgb(212, 0, 255);
+}
+
+.heading_div2 {
+    font-size: 18px;
+    font-style: oblique;
+    font-family: 'Nerko One', cursive;
+}
+
+.result_para_tag {
+    font-size: 20px;
+    box-shadow: 5px 5px 10px yellowgreen;
+    color: firebrick;
+}
+
+.copyright_footer {
+    position: fixed;
+    bottom: 0;
+    color: black;
+    background-color: blanchedalmond;
+    width: 100%;
+    text-align: center;
+    line-height: 2.5;
+}
+
+canvas {
+    border:10px groove goldenrod;
+    border-radius: 20px;
+    margin-top: 160px;
+    animation: colorchange 2.5s infinite;
+}
+
+@keyframes colorchange {
+    from {box-shadow: 5px 5px 10px aqua;}
+    to {box-shadow: 5px 5px 10px mediumseagreen;}
+}
+
